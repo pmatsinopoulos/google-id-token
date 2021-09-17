@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
   s.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency 'jwt', '>= 1'
+  s.add_runtime_dependency 'jwt', '>= 2'
 
   s.add_development_dependency 'fakeweb'
   s.add_development_dependency 'rake'
